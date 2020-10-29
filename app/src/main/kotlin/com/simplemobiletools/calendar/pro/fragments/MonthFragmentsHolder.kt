@@ -10,6 +10,7 @@ import android.widget.DatePicker
 import androidx.appcompat.app.AlertDialog
 import androidx.viewpager.widget.ViewPager
 import com.simplemobiletools.calendar.pro.R
+import com.simplemobiletools.calendar.pro.VerticalViewPager
 import com.simplemobiletools.calendar.pro.activities.MainActivity
 import com.simplemobiletools.calendar.pro.adapters.MyMonthPagerAdapter
 import com.simplemobiletools.calendar.pro.extensions.config
@@ -28,7 +29,7 @@ import org.joda.time.DateTime
 class MonthFragmentsHolder : MyFragmentHolder(), NavigationListener {
     private val PREFILLED_MONTHS = 251
 
-    private var viewPager: MyViewPager? = null
+    private var viewPager: VerticalViewPager? = null
     private var defaultMonthlyPage = 0
     private var todayDayCode = ""
     private var currentDayCode = ""
