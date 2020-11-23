@@ -11,6 +11,7 @@
         android:layout_alignTop="@+id/top_value"
         android:layout_alignBottom="@+id/top_value"
         android:autoMirrored="true"
+        android:rotation="90"
         android:paddingLeft="@dimen/activity_margin"
         android:paddingRight="@dimen/activity_margin"
         android:src="@drawable/ic_chevron_left_vector"/>
@@ -36,6 +37,7 @@
         android:layout_alignBottom="@+id/top_value"
         android:layout_alignParentEnd="true"
         android:autoMirrored="true"
+        android:rotation="90"
         android:paddingLeft="@dimen/activity_margin"
         android:paddingRight="@dimen/activity_margin"
         android:src="@drawable/ic_chevron_right_vector"/>
